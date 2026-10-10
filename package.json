@@ -1,0 +1,18 @@
+{
+  "name": "bitbox-qa-ikea",
+  "version": "1.0.0",
+  "description": "Prueba técnica QA: automatización del registro con correo inválido en ikea.com.do",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Juan",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5"
+  }
+}
